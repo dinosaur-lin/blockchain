@@ -1,4 +1,0 @@
-{
-  "author": "yunfeng",
-  "content": "loveL"
-}
