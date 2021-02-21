@@ -1,0 +1,9 @@
+(executable
+ (name blockchainapp)
+ (modes byte)
+ (libraries digestif unix yojson ppx_deriving_yojson.runtime opium logs logs.lwt)
+ (preprocess (pps ppx_deriving_yojson)))
+
+(alias
+  (name app)
+  (deps blockchainapp.bc))

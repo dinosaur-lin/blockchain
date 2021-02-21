@@ -1,0 +1,9 @@
+2020.12.01 22:15:24 INFO  Started: Metals version 0.9.6 in workspace '/home/yunfeng/ocaml_projects/blockchain' for client vscode.
+2020.12.01 22:15:25 INFO  time: initialize in 1.2s
+2020.12.01 22:15:27 WARN  Build server is not auto-connectable.
+2020.12.01 22:15:27 WARN  no build tool detected in workspace '/home/yunfeng/ocaml_projects/blockchain'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:15:29 INFO  shutting down Metals
+2020.12.01 22:15:56 INFO  Started: Metals version 0.9.7 in workspace '/home/yunfeng/ocaml_projects/blockchain' for client vscode.
+2020.12.01 22:15:58 INFO  time: initialize in 1.17s
+2020.12.01 22:15:59 WARN  Build server is not auto-connectable.
+2020.12.01 22:15:59 WARN  no build tool detected in workspace '/home/yunfeng/ocaml_projects/blockchain'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

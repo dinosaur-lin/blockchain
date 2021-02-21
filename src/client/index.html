@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script type="text/javascript" defer="defer" src="index.js"></script>
+  <title>Block chain demo</title>
+  <style>
+    body {
+      background-color: linen;
+    }
+    .chaintext {
+      margin: 20px;
+      display: block;
+      border-width: 2px;
+    }
+    .chainlabel {
+      display: block;
+    }
+    .input {
+      margin: 20px;
+      padding: 10px;
+      display: block;
+      border-style: solid;
+      border-width: 1px;
+      width: 50%;
+    }
+    .buttons {
+      margin: 20px;
+      display: block;
+    }
+    .inputauthor {
+      margin: 20px;
+      display: inline;
+    }
+    .inputcontent {
+      margin: 20px;
+      display: inline;
+    }
+    .button {
+      padding: 10px;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <noscript>Sorry, you need to enable JavaScript to see this page.</noscript>
+  <div class="chaintext">
+    <label class="chainlabel"> Current block chain content </label>
+    <textarea id="chain_text"  rows="10" cols="200"></textarea>
+  </div>
+  <div class="input">
+    <label>New transaction: </label>
+    <div class="inputauthor">
+      <label for="author">Author</label>
+      <input id="author" name="author" type="text">
+    </div>
+    <div class="inputcontent">
+      <label for="content">Content</label>
+      <input id="content" name="content" type="text">
+    </div>
+  </div>
+  <div class="buttons">
+    <button class="button" id="chain_button">Get chain</button>
+    <button class="button" id="add_new_transaction_button">Add new transaction</button>
+  </div>
+</body>
+</html>
